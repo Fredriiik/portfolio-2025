@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Byggmappar
+dist/
+
+# OS filer
+.DS_Store
+Thumbs.db
+
+# Loggar
+*.log
+
+# npm package lock
+package-lock.json
+
+# VSCode settings
+.vscode/
