@@ -1,12 +1,12 @@
 {
   "name": "portfolio-2025",
   "version": "1.0.0",
-  "description": "New updated portfolio. built with Bootstrap + TypeScript",
+  "description": "New updated portfolio built with Bootstrap + TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc --watch & lite-server"
   },
   "repository": {
     "type": "git",
