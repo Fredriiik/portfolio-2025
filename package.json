@@ -5,24 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "lite-server",
-    "build": "tsc",
-    "dev": "tsc --watch & lite-server"
+    "build": "tsc && vite build",
+    "dev": "vite"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/Fredriiik/portfolio-2025.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Fredriiik/portfolio-2025/issues"
   },
   "homepage": "https://github.com/Fredriiik/portfolio-2025#readme",
   "devDependencies": {
     "lite-server": "^2.6.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^7.1.9"
   },
   "dependencies": {
     "bootstrap": "^5.3.8"
