@@ -1,3 +1,10 @@
+import "bootstrap";
+import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
+import { Router } from "./router/Router";
 
+const app = document.getElementById("app")!;
 
-console.log("Portfolio 2025!!! is running 🚀");
+app.appendChild(Navbar());
+app.appendChild(Router());
+app.appendChild(Footer());
