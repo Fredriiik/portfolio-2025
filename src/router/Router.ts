@@ -1,7 +1,8 @@
-import { About } from "../pages/About";
-import { Contact } from "../pages/Contact";
-import { Home } from "../pages/Home";
-import { Work } from "../pages/Work";
+import { About } from "../pages/About.js";
+import { Contact } from "../pages/Contact.js";
+import { Home } from "../pages/Home.js";
+import { Work } from "../pages/Work.js";
+
 
 export function Router(): HTMLElement {
   const container = document.createElement("div");
