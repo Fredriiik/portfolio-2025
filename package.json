@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "lite-server",
-    "build": "tsc && vite build",
-    "dev": "vite"
+    "build": "tsc",
+    "dev": "concurrently \"tsc --watch\" \"npm run start\""
   },
   "repository": {
     "type": "module",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Fredriiik/portfolio-2025#readme",
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "lite-server": "^2.6.1",
     "typescript": "^5.9.2",
     "vite": "^7.1.9"
